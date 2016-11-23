@@ -2,25 +2,34 @@
 
 lines = ['Gyle Centre', 'Edinburgh Park', 'Murrayfield Stadium', 'Haymarket', 'Princes Street']
 # 1. Work out how many stops there are in the array
-puts lines.length()
+#puts lines.length()
 
 # 2. Return 'Edinburgh Park' from the array
-
+#puts lines[1]
 
 # 3. How many ways can we return 'Princes Street' from the array?
+#puts lines[4]
+#puts lines[-1]
+#lines.pop()
 
 # 4. Work out the index position of 'Haymarket'
-lines.index("Haymarket")
+#puts lines.index("Haymarket")
+
 # 5. Add 'Airport' to the start of the array
+#lines.unshift("Airport")
 
 # 6. Add 'York Place' to the end of the array
+#lines.push("York Place")
 
 # 7. Remove 'Edinburgh Park' from the array using it's name
+#lines.delete("Edinburgh Park")
 
 # 8. Delete 'Edinburgh Park' from the array by index
+#lines.delete_at(1)
 
 # 9. Reverse the positions of the stops in the array
-
+lines.reverse!()
+puts lines
 ### B. Given the following data structure:
 
 my_hash = {"0" => "Zero", 1 => "One", :two => "Two", "two" => 2}
